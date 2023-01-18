@@ -8,8 +8,8 @@ body{
 div#celular{
     display: inline;
     background: transparent url('imagens/frames/frame-iphone.png') center center /cover no-repeat;
-    height: 96vh;
-    width: 23vw;
+    height:  624.1px;
+    width: 312.2px;
     position: absolute;
     left: 50%;
     top: 50%;
