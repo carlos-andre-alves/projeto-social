@@ -8,8 +8,8 @@ body{
 div#celular{
     display: inline;
     background: transparent url('imagens/frames/frame-iphone.png') center center /cover no-repeat;
-    height:  624.1px;
-    width: 312.2px;
+    height:  627px;
+    width: 311px;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -17,8 +17,8 @@ div#celular{
     
 }
 div#botoes{
-    height: 70vh;
-    width: 3.9vw;
+    height: 73vh;
+    width: 5vw;
     position: absolute;
     left: 95%;
     top: 3%;
@@ -31,11 +31,17 @@ div#botoes{
     border-radius: 50%;
 }
 iframe{
-    height: 77vh;
-    width: 21vw;
+    height: 73.1vh;
+    width: 21.6vw;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-48%, -50%);
     overflow-x: hidden;
+}
+img.logo:hover{
+    border: 1px solid white;
+    box-shadow: 5px 5px 13px rgba(0, 0, 0, 0.685);
+    transform: translate(-5px, -5px);
+    transition: 0.5s;
 }
